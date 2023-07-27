@@ -1,5 +1,8 @@
 .App {
   text-align: center;
+  margin: 0;
+  background-color: lightgoldenrodyellow;
+  height: 100vh;
 }
 
 .App-logo {
@@ -28,6 +31,12 @@
   color: #61dafb;
 }
 
+.notesContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 100%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +44,24 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.searchinput {
+  height: 10px;
+  border-radius: 4px;
+  border: solid 1px gray;
+  padding: 10px;
+  margin: 10px;
+  width: 30%;
+  outline: 0;
+}
+
+.iptcontainer{
+  position:relative;
+}
+.icon{
+  position:absolute;
+  margin-top:18px;
+  margin-left:-40px;
+
 }

@@ -1,0 +1,35 @@
+.container {
+  border-radius: 5px;
+  background-color:rgb(243, 210, 197);
+  border: 1px darkcyan;
+  padding: 10px;
+  margin: 10px;
+}
+
+.delBtn {
+  height: 30px;
+  border-radius: 4;
+  border: 0;
+  outline: 0;
+}
+
+.desc {
+  text-align: start;
+}
+
+.container {
+  position: relative;
+}
+
+.delBtn {
+  position: absolute;
+  top: 85%;
+  right:5px;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.container:hover .delBtn {
+  opacity: 1;
+}
